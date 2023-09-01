@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.redressed{
+    font-family:'Redressed',cursive ;
+}
+.texte{
+color:rgb(252, 228, 17);
+}
+.merriweather{
+    font-family:'merriweather',serif ;
+}
+.cc-navbar{
+    background-color: rgba(0,0,0,0.55);
+    font-family:'Merriweather',serif ;
+    box-shadow:1px 1px 3px rgba(255,255,255, .54) ;
+    z-index: 90;
+}  
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition:padding-botton .4s ease-in-out,border-color 0.3s ;
+
+}
+.banner{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img/a1-women-weca-2-.jpg) center center fixed no-repeat ;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}  
+
+.cc-navbar .nav-link:hover{
+padding-bottom: 20px;
+border-bottom-color:var(--bs-teal) ;
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color:var(--bs-teal); 
+    transition:0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: white;
+    background-color:var(--bs-teal); 
+}
+.banner .banner-decs{
+    font-size:48px;
+    font-weight:400 ;
+    color: white;
+}
+
+.cc-menu,.order-form{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img/a1-women-weca-2-.jpg) center center fixed no-repeat ;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;  
+}
+
+
